@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+span.special-color,
+p.special-color,
+h5.special-color {
+  color: #18778c;
+}
+
+.navbar-light .navbar-brand.special-font {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #18778c;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  color: #1ca0ae;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #0d6679, 1px 2px 0px #0d6679, 1px 3px 0px #0d6679,
+    1px 4px 0px #0d6679, 1px 5px 0px #0d6679, 1px 6px 0px #0d6679,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+.cv-item {
+  padding: 0 0 0 20px;
+  margin-top: -2px;
+  border-left: 2px solid #18778c;
+  position: relative;
+}
+.cv-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #18778c;
+}
+.cv-years {
+  display: inline-block;
+  background-color: #1c9fae4c;
+  padding: 5px 15px;
+}

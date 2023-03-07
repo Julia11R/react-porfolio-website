@@ -18,12 +18,11 @@ export default function About() {
               className="w-100 img-fluid "
               alt="Zdjęcie Julii Raczyńskiej"
             />
-            <a href="#!">
-              <div
-                className="mask"
-                style={{ backgroundColor: "rgba(251, 251, 251, 0.2)" }}
-              ></div>
-            </a>
+
+            <div
+              className="mask"
+              style={{ backgroundColor: "rgba(251, 251, 251, 0.2)" }}
+            ></div>
           </MDBRipple>
           <p className="text-center text-uppercase mt-3 mb-4">
             Dopiero się rozkręcam

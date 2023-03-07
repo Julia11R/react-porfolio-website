@@ -427,6 +427,13 @@ function Portfolio() {
                           </li>
                         </MDBTypography>
                         <h5>Link do repozytorium projketu na GitHubie:</h5>
+                        <a
+                          href="https://github.com/Julia11R/react-porfolio-website"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          https://github.com/Julia11R/react-porfolio-website
+                        </a>
                       </div>
                     </div>
                   </div>

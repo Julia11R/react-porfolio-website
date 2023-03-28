@@ -120,7 +120,7 @@ function Portfolio() {
                         </p>
                         <p>
                           Projekt został stworzony bez użycia żadnych
-                          dodatkowych bilbiotek.
+                          dodatkowych bibliotek.
                         </p>
                         <h5>Użyte Technologie:</h5>
                         <MDBTypography listUnStyled className="mb-3 ">
